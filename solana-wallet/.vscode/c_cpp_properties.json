@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Flipper",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../flipperzero-firmware/firmware/**",
+                "../flipperzero-firmware/applications/services/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

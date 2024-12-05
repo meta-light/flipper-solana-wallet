@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Flipper",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/flipperzero-firmware/**",
+                "${workspaceFolder}/flipperzero-firmware/applications/**",
+                "${workspaceFolder}/flipperzero-firmware/applications/services/**",
+                "${workspaceFolder}/flipperzero-firmware/assets/**",
+                "${workspaceFolder}/flipperzero-firmware/lib/**",
+                "${workspaceFolder}/flipperzero-firmware/lib/toolbox/**",
+                "${workspaceFolder}/flipperzero-firmware/furi/**"
+            ],
+            "defines": ["FURI_DEBUG", "FURI_HAL_DEBUG"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+} 

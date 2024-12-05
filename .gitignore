@@ -1,0 +1,45 @@
+# Build directories
+build/
+dist/
+.obj/
+
+!.vscode/tasks.json
+.idea/
+*.sublime-*
+
+# Firmware directory (should be cloned separately)
+flipperzero-firmware/
+
+# Compiled files
+*.o
+*.d
+*.elf
+*.bin
+*.map
+*.hex
+*.fap
+*.zip
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# System files
+.DS_Store
+.directory
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.log
